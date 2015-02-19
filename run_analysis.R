@@ -76,3 +76,9 @@ names(full_set) <- sub("BodyAcc","Body.Acceleration", names(full_set))
 names(full_set) <- sub("GravityAcc","Gravity.Acceleration", names(full_set))
 names(full_set) <- sub("BodyGyro","Body.Gyroscope", names(full_set))
 names(full_set) <- sub("Mag","Magnitude", names(full_set))
+
+# Create summarized data set
+summarized_data <- ddply(full_set, .(subjectId, activity), numcolwise(mean))
+
+# Write out summarized data set to file
+write.table(summarized_data, file = "summarized_data.txt", row.names = FALSE)
