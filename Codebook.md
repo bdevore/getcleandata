@@ -1,5 +1,6 @@
 |# Getting and Cleaning Data Course Project Codebook 
 | Column No | Column Name | Description | Range | 
+| ----------| ------------|-------------|-------|
 | [1] |  Time.Body.Acceleration.Mean.for.X.Axis | | |
 | [2] |  Time.Body.Acceleration.Mean.for.Y.Axis | | |
 | [3] |  Time.Body.Acceleration.Mean.for.Z.Axis | | |
