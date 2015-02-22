@@ -1,5 +1,5 @@
 # getcleandata
-Project for Getting and Cleaning Data Coursera class, this README file describes the scripts and how they work to produce the final data set.
+Project for Getting and Cleaning Data Coursera class, this README file describes the scripts and how they work to produce the final data set. 
 
 ## Project Goals and Specific Tasks
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 
@@ -17,6 +17,9 @@ You should also include a README.md in the repo with your scripts. This README f
 1. Uses descriptive activity names to name the activities in the data set
 1. Appropriately labels the data set with descriptive variable names. 
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Executing the analysis script
+The run_analysis.R script should be run to perform the analysis, it will write out a text file containing the summary data in a tabular format. The run_analysis.R script expects the plyr library to be installed into the R environment prior to executing. It also expects the UCI HAR Dataset files to be present in a specific layout. The original data should be expanded in place, maintaining the original directory structure of the data set (a 'UCI HAR Dataset' folder containing top level feature and activity label files with two subdirectories for the test and train data sets.
 
 ## Data Retrieval and Cleansing Approach
 The script goes through a number of steps to produce the summarized data. Within the run_analysis.R file there are comments describing each step that was performed. A narrative of the approach follows:
@@ -49,4 +52,4 @@ Once the data has been merged into a combined data frame, we clean up the column
 6. Expanding 'Mag' to 'Magnitude'
 
 ### Result Format Rationale
-A wide format approach to the data was taken 
+A wide format approach to the summary data was taken so that a single row of data represents the complete snapshot of data across all of the different variables. Each row represents the complete set of measurements taken for a subject at a point in time, with a label describing the activity being performed and whether the data was from the training or testing data set.
