@@ -5,24 +5,24 @@ The raw data for this data set was obtained by sampling the acceleromter and gyr
 
 | Column No | Column Name | Description | Range | 
 | ----------| ------------|-------------|-------|
-| [1] |  Time.Body.Acceleration.Mean.for.X.Axis | | |
-| [2] |  Time.Body.Acceleration.Mean.for.Y.Axis | | |
-| [3] |  Time.Body.Acceleration.Mean.for.Z.Axis | | |
-| [4] |  Time.Body.Acceleration.Standard.Deviation.for.X.Axis | | |
-| [5] |  Time.Body.Acceleration.Standard.Deviation.for.Y.Axis | | |
-| [6] |  Time.Body.Acceleration.Standard.Deviation.for.Z.Axis | | |
-| [7] |  Time.Gravity.Acceleration.Mean.for.X.Axis| | |
-| [8] |  Time.Gravity.Acceleration.Mean.for.Y.Axis| | |
-| [9] |  Time.Gravity.Acceleration.Mean.for.Z.Axis| | |
-|[10] |  Time.Gravity.Acceleration.Standard.Deviation.for.X.Axis | | |
-|[11] |  Time.Gravity.Acceleration.Standard.Deviation.for.Y.Axis | | |
-|[12] |  Time.Gravity.Acceleration.Standard.Deviation.for.Z.Axis | | |
-|[13] |  Time.Body.AccelerationJerk.Mean.for.X.Axis| | |
-|[14] |  Time.Body.AccelerationJerk.Mean.for.Y.Axis| | |
-|[15] |  Time.Body.AccelerationJerk.Mean.for.Z.Axis| | |
-|[16] |  Time.Body.AccelerationJerk.Standard.Deviation.for.X.Axis | | |
-|[17] |  Time.Body.AccelerationJerk.Standard.Deviation.for.Y.Axis | | |
-|[18] |  Time.Body.AccelerationJerk.Standard.Deviation.for.Z.Axis | | |
+| [1] |  Time.Body.Acceleration.Mean.for.X.Axis | Mean of the accelerometer data along the X-axis from the subject body| |
+| [2] |  Time.Body.Acceleration.Mean.for.Y.Axis | Mean of the accelerometer data along the Y-axis from the subject body| |
+| [3] |  Time.Body.Acceleration.Mean.for.Z.Axis | Mean of the accelerometer data along the Z-axis form the subject body| |
+| [4] |  Time.Body.Acceleration.Standard.Deviation.for.X.Axis | Standard deviation of the accelerometer data attributed to the subject body along the X-axis| |
+| [5] |  Time.Body.Acceleration.Standard.Deviation.for.Y.Axis | Standard deviation of the accelerometer data attributed to the subject body along the Y-axis| |
+| [6] |  Time.Body.Acceleration.Standard.Deviation.for.Z.Axis | Standard deviation of the accelerometer data attributed to the subject body along the Z-axis| |
+| [7] |  Time.Gravity.Acceleration.Mean.for.X.Axis| Mean of the accelerometer data along the X-axis attributed to gravity | |
+| [8] |  Time.Gravity.Acceleration.Mean.for.Y.Axis| Mean of the accelerometer data along the Y-axis attributed to gravity | |
+| [9] |  Time.Gravity.Acceleration.Mean.for.Z.Axis| Mean of the accelerometer data along the Z-axis attributed to gravity | |
+|[10] |  Time.Gravity.Acceleration.Standard.Deviation.for.X.Axis | Standard deviation of the accelerometer data attributed to gravity along the X-axis | |
+|[11] |  Time.Gravity.Acceleration.Standard.Deviation.for.Y.Axis | Standard deviation of the accelerometer data attributed to gravity along the Y-axis| |
+|[12] |  Time.Gravity.Acceleration.Standard.Deviation.for.Z.Axis | Standard deviation of the accelerometer data attributed to gravity along the Z-axis| |
+|[13] |  Time.Body.AccelerationJerk.Mean.for.X.Axis| Mean of the accelerometer jerk value attributed to the subject body along the X-axis| |
+|[14] |  Time.Body.AccelerationJerk.Mean.for.Y.Axis| Mean of the accelerometer jerk value attributed to the subject body along the Y-axis| |
+|[15] |  Time.Body.AccelerationJerk.Mean.for.Z.Axis| Mean of the accelerometer jerk value attributed to the subject body along the Z-axis| |
+|[16] |  Time.Body.AccelerationJerk.Standard.Deviation.for.X.Axis | Standard deviation of the accelerometer jerk value attributed to the subject body along the X-axis| |
+|[17] |  Time.Body.AccelerationJerk.Standard.Deviation.for.Y.Axis | Standard deviation of the accelerometer jerk value attributed to the subject body along the Y-axis| |
+|[18] |  Time.Body.AccelerationJerk.Standard.Deviation.for.Z.Axis | Standard deviation of the accelerometer jerk value attributed to the subject body along the Z-axis| |
 |[19] |  Time.Body.Gyroscope.Mean.for.X.Axis| | |
 |[20] |  Time.Body.Gyroscope.Mean.for.Y.Axis| | |
 |[21] |  Time.Body.Gyroscope.Mean.for.Z.Axis| | |
