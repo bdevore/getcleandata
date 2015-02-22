@@ -33,13 +33,13 @@ colnames(train_set) <- selected_features$Feature
 train_activity_ids <- read.table(file="UCI HAR Dataset/train/y_train.txt",col.names = c("ID"))
 train_activities <- join(train_activity_ids,activity_labels)
 
-train_set$activity <- train_activities$Activity
+train_set$Activity <- train_activities$Activity
 
 ## Load Train Subject IDs
 train_subjects <- read.table(file="UCI HAR Dataset/train/subject_train.txt", col.names = c("subjectId"))
-train_set$subjectId <- as.factor(train_subjects$subjectId)
+train_set$Subject.Id <- as.factor(train_subjects$subjectId)
 ## Set record type
-train_set$recordType <- as.factor(rep("TRAIN", nrow(train_set)))
+train_set$Record.Type <- as.factor(rep("TRAIN", nrow(train_set)))
 
 # For Test Set
 
@@ -52,14 +52,14 @@ colnames(test_set) <- selected_features$Feature
 test_activity_ids <- read.table(file="UCI HAR Dataset/test/y_test.txt",col.names = c("ID"))
 test_activities <- join(test_activity_ids,activity_labels)
 
-test_set$activity <- test_activities$Activity
+test_set$Activity <- test_activities$Activity
 
 ## Load Test Subject IDs
 test_subjects <- read.table(file="UCI HAR Dataset/test/subject_test.txt", col.names = c("subjectId"))
-test_set$subjectId <- as.factor(test_subjects$subjectId)
+test_set$Subject.Id <- as.factor(test_subjects$subjectId)
 
 ## Set record type
-test_set$recordType <- as.factor(rep("TEST", nrow(test_set)))
+test_set$Record.Type <- as.factor(rep("TEST", nrow(test_set)))
 
 # Combine Train and Test data sets
 full_set <- rbind(train_set, test_set)
@@ -78,7 +78,7 @@ names(full_set) <- sub("BodyGyro","Body.Gyroscope", names(full_set))
 names(full_set) <- sub("Mag","Magnitude", names(full_set))
 
 # Create summarized data set
-summarized_data <- ddply(full_set, .(subjectId, activity, recordType), numcolwise(mean))
+summarized_data <- ddply(full_set, .(Subject.Id, Activity, Record.Type), numcolwise(mean))
 
 # Write out summarized data set to file
 write.table(summarized_data, file = "summarized_data.txt", row.names = FALSE)
