@@ -39,6 +39,13 @@ For each of the data sets, train and test, the following steps are performed:
 After performing these steps for both the training and testing data, the two sets are merged using rbind into a single full data frame.
 
 ### Column Naming Rationale
-Once the data has been merged into a combined data frame, we clean up the column names to make them more human readable. 
+Once the data has been merged into a combined data frame, we clean up the column names to make them more human readable. Column names are expanded into more descriptive text, using dots between each word. The following changes were made:
+1. Replacing all '-XYZ' with 'for.XYZ.Axis' for the appropriate axis
+2. Expanding -std() and -mean() with expanded text ('Standard.Deviation' and 'Mean')
+3. Expanding variable names that start with 't' with 'Time' and 'f' with 'Frequency'
+4. Expanding 'BodyAcc' and 'GravityAcc' to 'Body.Acceleration' and 'Gravity.Acceleration' respectively
+5. Expanding 'BodyGyro' to 'Body.Gyroscope'
+6. Expanding 'Mag' to 'Magnitude'
 
 ### Result Format Rationale
+A wide format approach to the data was taken 
