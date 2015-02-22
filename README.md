@@ -51,5 +51,7 @@ Once the data has been merged into a combined data frame, we clean up the column
 5. Expanding 'BodyGyro' to 'Body.Gyroscope'
 6. Expanding 'Mag' to 'Magnitude'
 
+The final description of all of the fields and values are described in the [Codebook.md](Codebook.md) file located in this same directory.
+
 ### Result Format Rationale
 A wide format approach to the summary data was taken so that a single row of data represents the complete snapshot of data across all of the different variables. Each row represents the complete set of measurements taken for a subject at a point in time, with a label describing the activity being performed and whether the data was from the training or testing data set.
