@@ -4,7 +4,7 @@ The codebook describes the column names, positions, data meaning, and enumerates
 The raw data for this data set was obtained by sampling the acceleromter and gyroscope data along 3-axes (X,Y, and Z). Those variables starting with 'Time' contain time domain data captured at a constant 50Hz rate. Further filtering was performed to split the data into acceleration due to Body movement and to Gravity. An FFT was performed against some of the data to calculate the variables that start with 'Frequency', which contain frequency domain data. Linear acceleration from the body and angular velocity were derived in time to calculate Jerk and Magnitude signals for the different axes. The following table describes the individual fields contained within the dataset.
 
 | Column No | Column Name | Description | Range | 
-| ----------| ------------|-------------|-------|
+| :--------:| ------------|-------------|-------|
 | [1] |  Time.Body.Acceleration.Mean.for.X.Axis | Mean of the accelerometer data along the X-axis from the subject body| |
 | [2] |  Time.Body.Acceleration.Mean.for.Y.Axis | Mean of the accelerometer data along the Y-axis from the subject body| |
 | [3] |  Time.Body.Acceleration.Mean.for.Z.Axis | Mean of the accelerometer data along the Z-axis form the subject body| |
