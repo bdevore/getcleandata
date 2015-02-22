@@ -1,5 +1,5 @@
 # getcleandata
-Repository for course project for Getting and Cleaning Data Coursera class
+Project for Getting and Cleaning Data Coursera class, this README file describes the scripts and how they work to produce the final data set.
 
 ## Project Goals and Specific Tasks
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 
@@ -19,7 +19,7 @@ You should also include a README.md in the repo with your scripts. This README f
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Data Retrieval and Cleansing Approach
-
+The script goes through a number of steps to produce the summarized data. The first step is to load the activity and feature labels from the 'activity_labels.txt' and 'features.txt' files, which are common across both the training and testing data set. The activity_labels will be used to lookup display names for the activity codes in the data files. 
 ### Column Selection Rationale
 
 ### Column Naming Rationale
