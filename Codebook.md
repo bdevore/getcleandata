@@ -1,4 +1,5 @@
-|# Getting and Cleaning Data Course Project Codebook 
+# Getting and Cleaning Data Course Project Codebook 
+
 | Column No | Column Name | Description | Range | 
 | ----------| ------------|-------------|-------|
 | [1] |  Time.Body.Acceleration.Mean.for.X.Axis | | |
