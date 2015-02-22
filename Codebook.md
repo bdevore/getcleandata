@@ -71,15 +71,7 @@ The raw data for this data set was obtained by sampling the acceleromter and gyr
 |[64] |  Frequency.BodyBody.GyroscopeMagnitude.Standard.Deviation | | |
 |[65] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Mean | | |
 |[66] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Standard.Deviation | | |
-|[67] |  Activity | Activity being performed by the subject during the measurement | 
-
-* WALKING
-* WALKING_UPSTAIRS
-* WALKING_DOWNSTAIRS
-* SITTING
-* STANDING
-* LAYING
-|
+|[67] |  Activity | Activity being performed by the subject during the measurement | <ul><li>WALKING</li><li>WALKING_UPSTAIRS</li><li>WALKING_DOWNSTAIRS</li><li>SITTING</li><li>STANDING</li><li>LAYING</li></ul> |
 |[68] |  Subject.Id | Anonymized subject ID | Subject IDs are integers ranging from 1 to 30 |
 |[69] |  Record.Type | Indicates whether the data record originated in the training or testing data sets | 
 * TRAIN
