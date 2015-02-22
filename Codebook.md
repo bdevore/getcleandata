@@ -1,4 +1,6 @@
 # Getting and Cleaning Data Course Project Codebook 
+The codebook describes the column names, positions, data meaning, and enumerates factors for each of the data elements within each row of data. The meaning of the  fields from the raw data set can be found [here] (UCI HAR Dataset/features.txt) with additional descriptive information located in the [feature_info.txt] (UCI HAR Dataset/feature_info.txt) file. 
+
 
 | Column No | Column Name | Description | Range | 
 | ----------| ------------|-------------|-------|
