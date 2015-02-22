@@ -45,32 +45,32 @@ The raw data for this data set was obtained by sampling the acceleromter and gyr
 |[38] |  Time.Body.GyroscopeMagnitude.Standard.Deviation | Standard deviation of the calculated magnitude of the gyroscope data| |
 |[39] |  Time.Body.GyroscopeJerkMagnitude.Mean | Mean of the calculated magnitude of the gyroscope estimated jerk data| |
 |[40] |  Time.Body.GyroscopeJerkMagnitude.Standard.Deviation | Standard deviation of the calculated magnitude of the gyroscope estimated jerk data| |
-|[41] |  Frequency.Body.Acceleromter.Mean.for.X.Axis | | |
-|[42] |  Frequency.Body.Acceleromter.Mean.for.Y.Axis | | |
-|[43] |  Frequency.Body.Acceleromter.Mean.for.Z.Axis | | |
-|[44] |  Frequency.Body.Acceleromter.Standard.Deviation.for.X.Axis | | |
-|[45] |  Frequency.Body.Acceleromter.Standard.Deviation.for.Y.Axis | | |
-|[46] |  Frequency.Body.Acceleromter.Standard.Deviation.for.Z.Axis | | |
-|[47] |  Frequency.Body.AcceleromterJerk.Mean.for.X.Axis | | |
-|[48] |  Frequency.Body.AcceleromterJerk.Mean.for.Y.Axis | | |
-|[49] |  Frequency.Body.AcceleromterJerk.Mean.for.Z.Axis | | |
-|[50] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.X.Axis | | |
-|[51] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.Y.Axis | | |
-|[52] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.Z.Axis | | |
-|[53] |  Frequency.Body.Gyroscope.Mean.for.X.Axis | | |
-|[54] |  Frequency.Body.Gyroscope.Mean.for.Y.Axis | | |
-|[55] |  Frequency.Body.Gyroscope.Mean.for.Z.Axis | | |
-|[56] |  Frequency.Body.Gyroscope.Standard.Deviation.for.X.Axis | | |
-|[57] |  Frequency.Body.Gyroscope.Standard.Deviation.for.Y.Axis | | |
-|[58] |  Frequency.Body.Gyroscope.Standard.Deviation.for.Z.Axis | | |
-|[59] |  Frequency.Body.AcceleromterMagnitude.Mean | | |
-|[60] |  Frequency.Body.AcceleromterMagnitude.Standard.Deviation | | |
-|[61] |  Frequency.BodyBody.AcceleromterJerkMagnitude.Mean | | |
-|[62] |  Frequency.BodyBody.AcceleromterJerkMagnitude.Standard.Deviation | | |
-|[63] |  Frequency.BodyBody.GyroscopeMagnitude.Mean | | |
-|[64] |  Frequency.BodyBody.GyroscopeMagnitude.Standard.Deviation | | |
-|[65] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Mean | | |
-|[66] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Standard.Deviation | | |
+|[41] |  Frequency.Body.Acceleromter.Mean.for.X.Axis | Mean of frequency domain data for accelerometer attributed to the subject body for the X-axis | |
+|[42] |  Frequency.Body.Acceleromter.Mean.for.Y.Axis | Mean of frequency domain data for accelerometer attributed to the subject body for the Y-axis| |
+|[43] |  Frequency.Body.Acceleromter.Mean.for.Z.Axis | Mean of frequency domain data for accelerometer attributed to the subject body for the Z-axis| |
+|[44] |  Frequency.Body.Acceleromter.Standard.Deviation.for.X.Axis | Standard deviation of frequency domain data for accelerometer attributed to the subject body for the X-axis| |
+|[45] |  Frequency.Body.Acceleromter.Standard.Deviation.for.Y.Axis | Standard deviation of frequency domain data for accelerometer attributed to the subject body for the Y-axis| |
+|[46] |  Frequency.Body.Acceleromter.Standard.Deviation.for.Z.Axis | Standard deviation of frequency domain data for accelerometer attributed to the subject body for the Z-axis| |
+|[47] |  Frequency.Body.AcceleromterJerk.Mean.for.X.Axis | Mean of frequency domain data for accelerometer estimated jerkattributed to the subject body for the X-axis| |
+|[48] |  Frequency.Body.AcceleromterJerk.Mean.for.Y.Axis | Mean of frequency domain data for accelerometer estimated jerkattributed to the subject body for the X-axis| |
+|[49] |  Frequency.Body.AcceleromterJerk.Mean.for.Z.Axis | Mean of frequency domain data for accelerometer estimated jerkattributed to the subject body for the X-axis| |
+|[50] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.X.Axis | Standard deviation of frequency domain data for accelerometer estimated jerk attributed to the subject body for the X-axis| |
+|[51] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.Y.Axis | Standard deviation of frequency domain data for accelerometer estimated jerk attributed to the subject body for the Y-axis| |
+|[52] |  Frequency.Body.AcceleromterJerk.Standard.Deviation.for.Z.Axis | Standard deviation of frequency domain data for accelerometer estimated jerk attributed to the subject body for the Z-axis| |
+|[53] |  Frequency.Body.Gyroscope.Mean.for.X.Axis | Mean of frequency domain data for gyroscope attributed to the subject body for the X-axis| |
+|[54] |  Frequency.Body.Gyroscope.Mean.for.Y.Axis | Mean of frequency domain data for gyroscope attributed to the subject body for the Y-axis| |
+|[55] |  Frequency.Body.Gyroscope.Mean.for.Z.Axis | Mean of frequency domain data for gyroscope attributed to the subject body for the Z-axis| |
+|[56] |  Frequency.Body.Gyroscope.Standard.Deviation.for.X.Axis | Standard deviation of frequency domain data for gyroscope attributed to the subject body for the X-axis| |
+|[57] |  Frequency.Body.Gyroscope.Standard.Deviation.for.Y.Axis | Standard deviation of frequency domain data for gyroscope attributed to the subject body for the Y-axis| |
+|[58] |  Frequency.Body.Gyroscope.Standard.Deviation.for.Z.Axis | Standard deviation of frequency domain data for gyroscope attributed to the subject body for the Z-axis| |
+|[59] |  Frequency.Body.AcceleromterMagnitude.Mean | Mean of the frequency domain data for the accelerometer magnitude | |
+|[60] |  Frequency.Body.AcceleromterMagnitude.Standard.Deviation | Standard deviation of the frequency domain data for the accelerometer magnitude| |
+|[61] |  Frequency.BodyBody.AcceleromterJerkMagnitude.Mean | Mean of the frequency domain data for the accelerometer jerk magnitude| |
+|[62] |  Frequency.BodyBody.AcceleromterJerkMagnitude.Standard.Deviation | Standard deviation of the frequency domain data for the accelerometer jerk magnitude| |
+|[63] |  Frequency.BodyBody.GyroscopeMagnitude.Mean | Mean of the frequency domain data for the gyroscope magnitude| |
+|[64] |  Frequency.BodyBody.GyroscopeMagnitude.Standard.Deviation | Standard deviation of the frequency domain data for the gyroscope magnitude| |
+|[65] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Mean |Mean of the frequency domain data for the gyroscope jerk magnitude | |
+|[66] |  Frequency.BodyBody.GyroscopeJerkMagnitude.Standard.Deviation | Standard deviation of the frequency domain data for the gyroscope jerk magnitude| |
 |[67] |  Activity | Activity being performed by the subject during the measurement | <ul><li>WALKING</li><li>WALKING_UPSTAIRS</li><li>WALKING_DOWNSTAIRS</li><li>SITTING</li><li>STANDING</li><li>LAYING</li></ul> |
 |[68] |  Subject.Id | Anonymized subject ID | Subject IDs are integers ranging from 1 to 30 |
 |[69] |  Record.Type | Indicates whether the data record originated in the training or testing data sets | <ul><li>TRAIN</li><li>TEST</li></ul>|
