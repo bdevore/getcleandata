@@ -40,6 +40,7 @@ After performing these steps for both the training and testing data, the two set
 
 ### Column Naming Rationale
 Once the data has been merged into a combined data frame, we clean up the column names to make them more human readable. Column names are expanded into more descriptive text, using dots between each word. The following changes were made:
+
 1. Replacing all '-XYZ' with 'for.XYZ.Axis' for the appropriate axis
 2. Expanding -std() and -mean() with expanded text ('Standard.Deviation' and 'Mean')
 3. Expanding variable names that start with 't' with 'Time' and 'f' with 'Frequency'
