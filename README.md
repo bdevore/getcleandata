@@ -47,7 +47,7 @@ Once the data has been merged into a combined data frame, we clean up the column
 1. Replacing all '-XYZ' with 'for.XYZ.Axis' for the appropriate axis
 2. Expanding -std() and -mean() with expanded text ('Standard.Deviation' and 'Mean')
 3. Expanding variable names that start with 't' with 'Time' and 'f' with 'Frequency'
-4. Expanding 'BodyAcc' and 'GravityAcc' to 'Body.Acceleration' and 'Gravity.Acceleration' respectively
+4. Expanding 'BodyAcc' and 'GravityAcc' to 'Body.Accelerometer' and 'Gravity.Accelerometer' respectively
 5. Expanding 'BodyGyro' to 'Body.Gyroscope'
 6. Expanding 'Mag' to 'Magnitude'
 
