@@ -1,6 +1,7 @@
 # Getting and Cleaning Data Course Project Codebook 
 The codebook describes the column names, positions, data meaning, and enumerates factors for each of the data elements within each row of data. The meaning of the  fields from the raw data set can be found [here] (UCI HAR Dataset/features.txt) with additional descriptive information located in the [feature_info.txt] (UCI HAR Dataset/feature_info.txt) file. 
 
+The raw data for this data set was obtained by sampling the acceleromter and gyroscope data along 3-axes (X,Y, and Z). Those variables starting with 'Time' contain time domain data captured at a constant 50Hz rate. Further filtering was performed to split the data into acceleration due to Body movement and to Gravity. An FFT was performed against some of the data to calculate the variables that start with 'Frequency', which contain frequency domain data. Linear acceleration from the body and angular velocity were derived in time to calculate Jerk and Magnitude signals for the different axes. The following table describes the individual fields contained within the dataset.
 
 | Column No | Column Name | Description | Range | 
 | ----------| ------------|-------------|-------|
